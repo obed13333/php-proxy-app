@@ -5,7 +5,7 @@
 
 </center>
 
-
+javascript:const text = window.location.href; if (text.includes("https://github.com")) { console.log(`Original link: ${text}`); editedtext = text.replace("https://github.com/", "https://replit.com/github/"); console.log(`Edited Link: ${editedtext}`); window.location.href=editedtext;} else { confim = confirm("You need to be on github.com to use this!\n\nDo you want to go to github.com?"); if (confim == true) {  window.location.href = "https://github.com/" } else { console.log("ok"); }; };
 # php-proxy-app
 
 Web Proxy Application built on [**php-proxy library**](https://github.com/Athlon1600/php-proxy) ready to be installed on your server
